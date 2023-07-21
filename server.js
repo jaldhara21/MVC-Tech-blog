@@ -4,23 +4,25 @@ const express = require("express");
 const session = require("express-session");
 const exphbs = require("express-handlebars");
 const hbs = exphbs.create({});
-
+require("dotenv").config();
 const sequelize = require("./config/connection");
 
 // Sets up the Express App
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+const { User, Blog, Comment } = require("./models");
+
 // Import the necessary module for Sequelize session store
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
 
 // Set up sessions
 const sess = {
-  secret: "Secret",
+  secret: process.env.DB_SESSION_SECRET,
   // Configuration for the session cookie
   cookie: {
     // half an hour
-    maxAge: 0.5 *  60 * 60 * 1000,
+    maxAge: 0.5 * 60 * 60 * 1000,
   },
   resave: false,
   saveUninitialized: true,
@@ -36,7 +38,7 @@ app.set("view engine", "handlebars");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static('public'));
+app.use(express.static("public"));
 
 app.use("/", allRoutes);
 
