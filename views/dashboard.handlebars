@@ -1,0 +1,42 @@
+<!-- The main title of the dashboard page -->
+<h1>Dashboard</h1>
+<section id="existingblogs">
+ <!-- Start of a loop to display each blog -->   
+{{#each blogs}}
+  <section class="card">
+      <a href="/blogs/{{id}}" class="card-body">
+        <h3 class="card-title">{{title}}</h3> 
+        <!-- Information about the creation date of the blog post -->
+        <h5>Posted on {{createdAt}}</h5>
+        <p class="card-text">{{content}}</p>
+    </a>
+  </section>
+  <!-- End of the loop to iterate over each blog -->
+{{/each}}
+</section>
+<!-- Section to create a new blog post -->
+<section id="createNew" class="card text-center">
+  <div class="card-body">
+  <h3 class="card-title">Create New Post</h3>
+  <!-- Form to create a new blog post -->
+  <form id="newBlog"><!-- Button to initiate the creation of a new blog post -->
+    <div class="card-text"></div>
+    <!-- Input field for the blog post title -->
+      <label for="title">Title</label><br>
+      <input type="text" id="title" placeholder="title">
+    </div>
+    <div class="card-text"></div>
+    <!-- Textarea for the blog post content -->
+      <label for="content">Content</label>
+    <textarea id="content" placeholder="content"></textarea>
+    </div>
+    <!-- Button to submit the form and create the new blog post -->
+    <button id="create">Create</button>
+</form>
+</div>
+</section>
+<form id="newpost">
+    <!-- Button to initiate the creation of a new blog post -->
+
+    <button>+ New Post</button>
+</form>
