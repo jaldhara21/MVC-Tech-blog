@@ -65,11 +65,16 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
 
-## GIF:
-### Figure.1 
+## Screenshots
+Home page<br>
+![Home page](./public/assets/image/The%20tech%20blog%20Home%20Page.gif)
+<br>
+Add New Post<br>
+![Add new post](./public/assets/image/Add%20new%20post.gif)
+<br>
+Update/Delete your post, or comment on someone else's<br>
+![Update/Delete/Comment](./public/assets/image/Update%20and%20Delete%20post.gif)
 
-The following animation demonstrates the application functionality:
-![]()
 
 ## Usage Instructions:
 
@@ -88,11 +93,7 @@ The following animation demonstrates the application functionality:
 
 ## GitHub Repository:
 [GitHub Repository:]()
-
-
-## Screenshots:
-### Figure 1. Screenshot
-![]() 
+ 
 
 ## Installation Process
 1. Clone the Repository from GitHub 
