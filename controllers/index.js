@@ -8,7 +8,7 @@ router.use("/api/users",userRoutes)
 const blogRoutes = require("./api/blogRoutes");
 router.use("/api/blogs",blogRoutes)
 
-const commentRoutes = require("./api/commentRoutes");
+const commentRoutes = require("./api/commentsRoutes");
 router.use("/api/comments",commentRoutes)
 
 const frontEnd = require("./frontendRoutes");
