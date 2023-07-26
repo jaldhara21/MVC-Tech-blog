@@ -19,7 +19,7 @@ const SequelizeStore = require("connect-session-sequelize")(session.Store);
 
 // Set up sessions
 const sess = {
-  secret: process.env.DB_SESSION_SECRET,
+  secret: 'Secret',
   // Configuration for the session cookie
   cookie: {
     // half an hour
