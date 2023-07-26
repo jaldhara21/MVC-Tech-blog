@@ -3,27 +3,29 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );;
 }
 
 body {
     height: 100vh;
-    background-color: azure;
 }
 
 header, h1 {
-    background-color: #355C7D;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,0.8735904051987767) 0%, rgba(70,252,199,0.7053946865443426) 100%);
     padding: 10px;
-    color: white !important;/* Important rule to override other styles */
+    color: black !important;/* Important rule to override other styles */
 }
 
 header a {
     margin: 10px;
     padding: 5px;
-    color: white !important;
+    color: black !important;
 }
 
 .card-title {
-    background-color: #355C7D;
+    background: rgb(34,187,195);
+background: linear-gradient(0deg, rgba(34,187,195,0.7482276119402985) 62%, rgba(253,187,45,1) 100%);
     color: white;
     padding: 5px;
 }
