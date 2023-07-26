@@ -3,18 +3,21 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(176, 229, 208, 1) 42%, rgba(92, 202, 238, 0.41) 93.6%);
+    ;
 }
 
 body {
     height: 100vh;
 }
 
-header, h1 {
-    background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,0.8735904051987767) 0%, rgba(70,252,199,0.7053946865443426) 100%);
+header,
+h1 {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 0.8735904051987767) 0%, rgba(70, 252, 199, 0.7053946865443426) 100%);
     padding: 10px;
-    color: black !important;/* Important rule to override other styles */
+    color: black !important;
+    /* Important rule to override other styles */
 }
 
 header a {
@@ -24,9 +27,9 @@ header a {
 }
 
 .card-title {
-    background: rgb(34,187,195);
-background: linear-gradient(0deg, rgba(34,187,195,0.7482276119402985) 62%, rgba(253,187,45,1) 100%);
-    color: white;
+    background: rgb(34, 187, 195);
+    background: linear-gradient(0deg, rgba(34, 187, 195, 0.7482276119402985) 62%, rgba(253, 187, 45, 1) 100%);
+    color: #5050e6d0;
     padding: 5px;
 }
 
@@ -34,7 +37,8 @@ background: linear-gradient(0deg, rgba(34,187,195,0.7482276119402985) 62%, rgba(
     background-color: azure;
 }
 
-.card h5, .card p {
+.card h5,
+.card p {
     color: black;
     font-style: normal;
 }
@@ -50,23 +54,27 @@ button {
     margin-top: 20px;
 }
 
-#content, #editedContent {
+#content,
+#editedContent {
     margin-left: 10vw;
     margin-right: 10vw;
 }
 
 /* Styling for the create, update, and delete buttons */
-#create, #update, #delete {
+#create,
+#update,
+#delete {
     margin-left: 30vw;
     margin-right: 30vw;
     margin-top: 20px;
 }
 
 #comment {
-width: 80vw;
-margin-top:20px;
+    width: 80vw;
+    margin-top: 20px;
 }
 
-#title, #editedTitle {
+#title,
+#editedTitle {
     width: 80vw;
 }
