@@ -67,7 +67,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## Screenshots
 Home page<br>
-![Home page](./public/assets/image/The%20tech%20blog%20Home%20Page.gif)
+![Home page](./public/assets/image/The%20Tech%20bolg%20home%20page.gif)
 <br>
 Add New Post<br>
 ![Add new post](./public/assets/image/Add%20new%20post.gif)
