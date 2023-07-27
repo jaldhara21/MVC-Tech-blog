@@ -89,10 +89,10 @@ Update/Delete your post, or comment on someone else's<br>
 
 
 ## Deployed Application Link:
-[Deployed Application Link:]()
+[Deployed Application Link:](https://thawing-falls-32628-e001715a23b9.herokuapp.com/)
 
 ## GitHub Repository:
-[GitHub Repository:]()
+[GitHub Repository:](https://github.com/jaldhara21/MVC-Tech-blog)
  
 
 ## Installation Process
